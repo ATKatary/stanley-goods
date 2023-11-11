@@ -1,0 +1,99 @@
+/***** Always True *****/
+@media only screen {
+    /*** General Purpose Display Styles ***/
+    .none {display: none;}
+    .flex {display: flex;}
+    .flex-important {display: flex !important;}
+    .column {flex-direction: column;}
+    .absolute {position: absolute !important;}
+    .hidden {visibility: hidden;}
+    .row-reverse {flex-direction: row-reverse;}
+    .column-reverse {flex-direction: column-reverse;}
+    .align-center {align-items: center;}
+    .align-end {align-items: flex-end;}
+    .align-start {align-items: flex-start;}
+    .justify-center {justify-content: center;}
+    .justify-start {justify-content: flex-start;}
+    .justify-start-important {justify-content: flex-start !important;}
+    .align-self-center {align-self: center;}
+    .align-self-start {align-self: flex-start;}
+    .align-self-end {align-self: flex-end;}
+    .justify-around {justify-content: space-around;}
+    .scroll {overflow: scroll;}
+    .no-scrollbar::-webkit-scrollbar {display: none;}
+    .no-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}
+    .pointer:hover {cursor: pointer;}
+    .text-center {text-align: center;}
+    .text-start {text-align: start;}
+    .justify-between {justify-content: space-between;}
+    .padding-0 {padding: 0 !important;}
+    .justify-end {justify-content: flex-end;}
+    .word-break {word-wrap: break-word;}
+    
+    /*** Widths ***/
+    .width-60 {width: 60%;}
+    .width-80 {width: 80%;}
+    .width-50 {width: 50%;}
+    .width-100 {width: 100%;}
+    .width-fit {width: fit-content;}
+
+    /*** Heights ***/
+    .height-95 {height: 95vh;}
+    .height-100 {height: 100%;}
+    
+    /*** Shapes ***/
+    .circle {border-radius: 50%;}
+    
+    /*** Paddings ***/
+    .padding-30px {padding: 30px;}
+
+    /*** Margins ***/
+    .margin-0 {margin: 0;}
+    .margin-top-20px {margin-top: 20px;}
+    .margin-bottom-20px {margin-bottom: 20px;}
+    .margin-30px {margin: 30px;}
+    .margin-40px {margin: 40px;}
+
+    /*** Colors ***/
+    .black {color: #000;}
+    .white {color: #fff;}
+
+    /*** Opacities ***/
+
+    /*** Fonts ***/
+
+    /*** Text Styles ***/
+
+    /*** Background Color Gradients ***/
+    .green  {background: linear-gradient(180deg, #39CBB9 0%, #5BFE9E 100%);}
+    .yellow {background: linear-gradient(225deg, #FBFF3C 0%, #DCD531 88.84%)}
+    .red    {background: linear-gradient(225deg, #F78888 0%, #DA6767 88.84%);}
+    .blue   {background: linear-gradient(225deg, #91FFFF 0%, #87E9FF 88.84%);}
+    .orange {background: linear-gradient(225deg, #D69334 0%, #FD8F3C 88.84%);}
+    .purple {background: linear-gradient(269.15deg, #C183F2 4.11%, #E5B2FF 96.97%);}
+
+    /*** Shadows ***/
+    
+    /*** Rotations ***/
+    
+    /*** Squares ***/
+
+    /*** Element Styles ***/
+
+    /*** Class Styles ***/
+
+    /*** Mui Overridden ***/
+
+    /*** Animations ***/
+    
+}
+
+/***** > 1000px *****/
+@media only screen and (min-width: 1000px) {
+    
+}
+
+/***** <= 1000px *****/
+@media only screen and (max-width: 1000px) {
+    
+}
