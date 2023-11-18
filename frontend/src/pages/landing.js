@@ -18,7 +18,7 @@ function Landing() {
         <Nav 
             vertical={false}
             collapsed={false}
-            style={{zIndex: "10"}}
+            style={{zIndex: "12"}}
             
             itemsLeft={NAV_LEFT} 
             leftStyle={{padding: "0 0 0 30px", justifyContent: "center", width: "100%"}}
