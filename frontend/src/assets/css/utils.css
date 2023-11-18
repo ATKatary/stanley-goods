@@ -3,66 +3,65 @@
     /*** General Purpose Display Styles ***/
     .none {display: none;}
     .flex {display: flex;}
-    .flex-important {display: flex !important;}
-    .column {flex-direction: column;}
-    .absolute {position: absolute !important;}
+    .fixed {position: fixed;}
+    .sticky {position: sticky;}
     .hidden {visibility: hidden;}
-    .row-reverse {flex-direction: row-reverse;}
-    .column-reverse {flex-direction: column-reverse;}
-    .align-center {align-items: center;}
+    .absolute {position: absolute;}
+    .column {flex-direction: column;}
     .align-end {align-items: flex-end;}
-    .align-start {align-items: flex-start;}
-    .justify-center {justify-content: center;}
-    .justify-start {justify-content: flex-start;}
-    .justify-start-important {justify-content: flex-start !important;}
-    .align-self-center {align-self: center;}
-    .align-self-start {align-self: flex-start;}
+    .align-center {align-items: center;}
     .align-self-end {align-self: flex-end;}
+    .align-start {align-items: flex-start;}
+    .align-self-center {align-self: center;}
+    .justify-end {justify-content: flex-end;}
+    .justify-center {justify-content: center;}
+    .align-self-start {align-self: flex-start;}
+    .row-reverse {flex-direction: row-reverse;}
+    .justify-start {justify-content: flex-start;}
     .justify-around {justify-content: space-around;}
+    .column-reverse {flex-direction: column-reverse;}
+    .justify-between {justify-content: space-between;}
+    
     .scroll {overflow: scroll;}
+    .clicked:active {opacity: 90%;}
     .no-scrollbar::-webkit-scrollbar {display: none;}
     .no-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}
+    
     .pointer:hover {cursor: pointer;}
-    .text-center {text-align: center;}
-    .text-start {text-align: start;}
-    .justify-between {justify-content: space-between;}
-    .padding-0 {padding: 0 !important;}
-    .justify-end {justify-content: flex-end;}
-    .word-break {word-wrap: break-word;}
     
     /*** Widths ***/
-    .width-60 {width: 60%;}
-    .width-80 {width: 80%;}
-    .width-50 {width: 50%;}
     .width-100 {width: 100%;}
     .width-fit {width: fit-content;}
-
+    .width-max {width: max-content;}
+    
     /*** Heights ***/
-    .height-95 {height: 95vh;}
     .height-100 {height: 100%;}
+    .height-fit {height: fit-content;}
+    .height-max {height: max-content;}
     
     /*** Shapes ***/
     .circle {border-radius: 50%;}
+    .rectangle {border-radius: 0%;}
     
     /*** Paddings ***/
-    .padding-30px {padding: 30px;}
-
+    .padding-0 {padding: 0;}
+    
     /*** Margins ***/
     .margin-0 {margin: 0;}
-    .margin-top-20px {margin-top: 20px;}
-    .margin-bottom-20px {margin-bottom: 20px;}
-    .margin-30px {margin: 30px;}
-    .margin-40px {margin: 40px;}
-
+    
     /*** Colors ***/
     .black {color: #000;}
     .white {color: #fff;}
-
+    
     /*** Opacities ***/
-
+    
     /*** Fonts ***/
-
+    
     /*** Text Styles ***/
+    .text-start {text-align: start;}
+    .text-center {text-align: center;}
+    .word-break {word-wrap: break-word;}
+    .chelsea-market {font-family:  'Chelsea Market' !important;}
 
     /*** Background Color Gradients ***/
     .green  {background: linear-gradient(180deg, #39CBB9 0%, #5BFE9E 100%);}
