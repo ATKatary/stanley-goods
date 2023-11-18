@@ -51,7 +51,9 @@ export const GC = {
         FAMILY: {
             DEFAULT: "chelsea-market"
         },
-        TITLE: "32px"
+        TITLE: "48px",
+        SUB_TITLE: "30px",
+        TEXT: "20px"
     }
 }
 
