@@ -36,27 +36,23 @@ function Landing() {
             closedStyle={{height: `50px`, width: "75px", left: "calc(100% - 76px)", top: "10px", backgroundColor: GC.PRIMARY}}
         />
 
-        <section style={{backgroundColor: GC.WHITE, minHeight: "calc(100% - 250px)", height: "max-content", padding: "30px"}}>
+        <section style={{backgroundImage: `url(${images("./shop.jpg")})`, backgroundSize: "cover", height: "calc(100% - 200px)", backgroundPosition: "center", padding: "30px"}}>
             <Container style={{height: "100%"}} className="flex">
                 <Row style={{height: "100%"}} className="flex align-center justify-center width-100">
-                    <img src={images("./shop.jpg")} style={{height: "90%", width: "400px"}}/>
+                    {/* <img src={images("./shop.jpg")} style={{height: "90%", width: "400px"}}/> */}
                     
-                    <div className="width-fit height-fit" style={{margin: "20px 0 0 0"}}>
-                        <Typography style={{fontSize: GC.FONT.SUB_TITLE, color: GC.BLACK, margin: "0 0 20px 0"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
+                    <div className="width-fit height-fit" style={{margin: "0 10px 0 0"}}>
+                        <Typography style={{fontSize: GC.FONT.SUB_TITLE, color: GC.BLACK, backgroundColor: GC.WHITE, margin: "0 0 20px 0", padding: "5px"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
                             Stanley COM
                         </Typography>
-                        <Row className="flex align-center">
-                            <Typography style={{fontSize: GC.FONT.TEXT, color: GC.BLACK, margin: "0 0 20px 0"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
-                                <EmailIcon style={{color: GC.BLACK, margin: "0 10px 0 0"}}/> 
-                                stanleycom@myyahoo.com
-                            </Typography>
-                        </Row>
-                        <Row className="flex align-center width-fit">
-                            <Typography style={{fontSize: GC.FONT.TEXT, color: GC.BLACK, margin: "0 0 20px 0"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
-                                <LocalPhoneIcon style={{color: GC.BLACK, margin: "0 10px 0 0"}} /> 
-                                +1 (240) 854-3461
-                            </Typography>
-                        </Row>
+                        <Typography style={{fontSize: GC.FONT.TEXT, color: GC.BLACK, backgroundColor: GC.WHITE, margin: "0 0 20px 0", padding: "5px"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
+                            <EmailIcon style={{color: GC.BLACK, margin: "0 10px 0 0"}}/> 
+                            stanleycom@myyahoo.com
+                        </Typography>
+                        <Typography style={{fontSize: GC.FONT.TEXT, color: GC.BLACK, backgroundColor: GC.WHITE, margin: "0 0 20px 0", padding: "5px"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
+                            <LocalPhoneIcon style={{color: GC.BLACK, margin: "0 10px 0 0"}} /> 
+                            +1 (240) 854-3461
+                        </Typography>
                     </div>
                 </Row>
             </Container>
